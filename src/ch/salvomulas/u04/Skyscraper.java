@@ -95,10 +95,10 @@ public class Skyscraper {
         // Instantiate the matrix for the visibility
         visibility = new int [4][this.size];
 
-        // Initialize every element of visibility with zero
+        // Initialize every element of visibility with one
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < this.size; j++) {
-                visibility[i][j] = 0;
+                visibility[i][j] = 1;
             }
         }
 
